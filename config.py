@@ -38,3 +38,33 @@ MAIL_TEMPLATE = """
 		</div>
 	{% endfor %}
 """
+
+REGIONS = {
+	'1': 'Uusimaa',
+	'2': 'Viereiset maakunnat',
+	'3': 'Koko Suomi',
+	'115': 'Ahvenanmaa',
+	'114': 'Etelä-Karjala',
+	'106': 'Etelä-Pohjanmaa',
+	'113': 'Etelä-Savo',
+	'103': 'Kainuu',
+	'117': 'Kanta-Häme',
+	'104': 'Keski-Pohjanmaa',
+	'107': 'Keski-Suomi',
+	'120': 'Kymenlaakso',
+	'101': 'Lappi',
+	'111': 'Pirkanmaa',
+	'105': 'Pohjanmaa',
+	'109': 'Pohjois-Karjala',
+	'102': 'Pohjois-Pohjanmaa',
+	'108': 'Pohjois-Savo',
+	'112': 'Päijät-Häme',
+	'110': 'Satakunta',
+	'116': 'Varsinais-Suomi'} 
+
+TYPES = {
+	's': 'Myydään',
+	'k': 'Ostetaan',
+	'u': 'Vuokrataan',
+	'h': 'Halutaan vuokrata',
+	'g': 'Annetaan'}
